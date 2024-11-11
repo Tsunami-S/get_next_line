@@ -6,7 +6,7 @@
 /*   By: tssaito <tssaito@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:58:43 by tssaito           #+#    #+#             */
-/*   Updated: 2024/11/11 21:49:38 by tssaito          ###   ########.fr       */
+/*   Updated: 2024/11/11 22:03:09 by tssaito          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,7 @@ char	*get_next_line(int fd)
 	return (ans.line);
 }
 
+//# include <fcntl.h>
 //int	main(int argc, char **argv)
 //{
 //	char	*line;

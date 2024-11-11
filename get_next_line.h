@@ -6,19 +6,17 @@
 /*   By: tssaito <tssaito@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 17:58:35 by tssaito           #+#    #+#             */
-/*   Updated: 2024/11/11 21:44:43 by tssaito          ###   ########.fr       */
+/*   Updated: 2024/11/11 22:02:35 by tssaito          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 
-# include <fcntl.h>
-# include <stddef.h>
-# include <stdint.h>
-# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdint.h>
+# include <stdio.h>
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42
